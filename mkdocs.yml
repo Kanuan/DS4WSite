@@ -1,6 +1,6 @@
-site_name: R7's DS4Windows Website (Unofficial)
-repo_url: https://github.com/Kanuan/DS4W_Website.github.io
-site_description: Projects devoted to USB input device emulation and game peripherals reverse engineering
+site_name: DS4Windows Docs
+repo_url: https://github.com/Ryochan7/ds4windows-site
+site_description: DS4Windows documentation website. Guides, FAQs, troubleshooting articles and more.
 
 theme:
   name: material
@@ -62,10 +62,11 @@ markdown_extensions:
 nav:
   - Welcome: index.md
   - About DS4Windows:
-    - 'about-ds4windows/index.md'
-    - 'about-ds4windows/supported-gamepads.md'
-    - 'about-ds4windows/companion-drivers.md'
-    - 'about-ds4windows/faq.md'
+    - 'about/index.md'
+    - 'about/latest-version.md'
+    - 'about/supported-gamepads.md'
+    - 'about/companion-drivers.md'
+    - 'about/faq.md'
   - Community and Support: community-support.md
   - Guides:
     - 'guides/index.md'
@@ -75,10 +76,11 @@ nav:
       - 'guides/solving-double-input.md'
     - Customization:
       - 'guides/p-editor-axis.md'
-    - Managing DS4W. Installation and User Data:  
+    - Backup/uninstall instructions:  
       - 'guides/managing-user-data.md'
       - 'guides/uninstalling-ds4windows.md'
     - Advanced guides:
+      - 'guides/prevent-steam-conflict.md'
       - 'guides/ds4w-custom-name.md'
   - Troubleshooting:
     - 'troubleshooting/index.md'
@@ -99,6 +101,8 @@ nav:
     - 'troubleshooting/kb-mouse-issues.md'
     - 'troubleshooting/steam-related.md'
     - 'troubleshooting/audio-related.md'
+    - Advanced:
+      - 'troubleshooting/tracing-guide.md'
   - Other:
     - "other/index.md"
     - "other/how-to-check-architecture.md"

@@ -8,8 +8,8 @@
 - Windows 10 or 11. __Windows versions from 8.1 and below are NOT supported anymore and support will not be given to users running older builds__
 - One or more supported controllers ([check the list](../../About-DS4Windows/supported-gamepads/)) 
 - (__Optional__) Bluetooth dongle for connecting wirelessly
-- Download and install the [x64 .NET 5.0 Runtime](https://dotnet.microsoft.com/download/dotnet/5.0/runtime) __FOR DESKTOP APPS__
-![dotnet5runtimeF.png](images/dotnet5runtime.png){: .glightbox }  
+- Download and install the [x64 .NET 6.0 Runtime](https://dotnet.microsoft.com/download/dotnet/6.0/runtime) __FOR DESKTOP APPS__
+![dotnet6runtimeF.png](images/dotnet6runtime.png){: .glightbox }  
 
 ## Downloading and starting DS4Windows
 
@@ -21,7 +21,13 @@
 - On first launch DS4Windows may ask you where to save its user data (settings and profiles):
     - __AppData folder (recommended)__: user data is stored outside of the program folder, inside a special folder reserved to your Windows user
     - __Program folder__: user data is stored inside the same folder `DS4Windows.exe` is located
-    
+
+## Enabling DualSense controller support
+
+- Open the `Settings` tab and click on the `Device Options` tab
+- Now enable the `DualSense Controller Support` checkbox
+
+![DS4WControllerSupportDualSense.png](images/DS4WControllerSupportDualSense.png){: .glightbox }  
 
 ## Drivers setup
 
